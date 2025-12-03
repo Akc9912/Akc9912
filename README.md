@@ -122,8 +122,8 @@ Curious, self-taught, and perfectionist: if something interests me, I research i
 
 **Backend Developer (Pasantía)**
 
-- Empresa: [Tu empresa]
-- Período: [Fechas]
+- Empresa: Coned
+- Período: Mayo a Septiembre de 2025
 - **Stack**: PHP 7 · Laravel · MySQL
 - **Responsabilidades**: Migración de consultas SQL nativas a Eloquent ORM de Laravel 7, refactorización de código legacy, implementación de 2 funcionalidades completas del sistema, optimización de queries y mejora de arquitectura backend
 
