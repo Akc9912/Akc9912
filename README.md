@@ -24,7 +24,6 @@ Curious, self-taught, and perfectionist: if something interests me, I research i
 
 - **Stack**: Java 24 · Spring Boot · MySQL · JWT Authentication
 - **Características**: CRUD completo, autenticación JWT, validaciones robustas, arquitectura en capas
-- 📂 [Ver repositorio](https://github.com/tuusuario/sistema-tickets)
 
 #### 📚 Student Planner (Full-Stack)
 
@@ -33,7 +32,6 @@ Curious, self-taught, and perfectionist: if something interests me, I research i
 - **Backend**: Java · Spring Boot · MySQL
 - **Frontend**: React · Next.js · Responsive Design
 - **Características**: Autenticación, gestión de tareas, interfaz intuitiva, sincronización en tiempo real
-- 📂 [Ver repositorio](https://github.com/tuusuario/student-planner)
 
 ---
 
