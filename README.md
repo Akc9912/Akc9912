@@ -175,7 +175,6 @@ Appointment management system with 3 roles (superadmin, admin, user), backend in
 
 - 💼 **LinkedIn**: [perfil](https://www.linkedin.com/in/sebastian-martin-conde-768360358/)
 - 🌐 **Web**: [Portfolio](https://conde-sebastian.vercel.app/)
-- 💻 **GitHub**: [@Akc9912](https://github.com/Akc9912)
 
 ---
 
