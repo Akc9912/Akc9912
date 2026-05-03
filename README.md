@@ -1,131 +1,154 @@
 ## 👋 ¡Hola! Soy Sebastián
 
-Backend developer apasionado por construir soluciones escalables y eficientes. Estudiante avanzado de Programación de Aplicaciones con sólida experiencia en **Java/Spring Boot** y amplio conocimiento en arquitectura de sistemas backend. Me especializo en desarrollo de APIs REST, integración de bases de datos y automatización de procesos.
+Desarrollador fullstack especializado en backend, DevOps e infraestructura. Titulado como Técnico Analista en Desarrollo y Programación de Aplicaciones, actualmente cursando la carrera de Análisis de Sistemas. Mi stack principal es **Java/Spring Boot** y **PostgreSQL** (con Supabase para hosting y autenticación), con experiencia sólida en integración de bases de datos, automatización de procesos y desarrollo de APIs REST robustas.
 
-Tengo un perfil curioso, autodidacta y perfeccionista: si algo me interesa, investigo y aprendo a fondo. Disfruto resolver problemas complejos en equipo, aplicar buenas prácticas y explorar nuevas tecnologías. Mi objetivo a largo plazo es consolidarme como **Backend/DevOps Engineer**, aunque también estoy ampliando mis habilidades hacia fullstack.
+En frontend, utilizo principalmente **React** (Vite) y desarrollo aplicaciones multiplataforma con **React Native** (Expo) y **Tauri**. Docker es parte fundamental de todos mis proyectos para asegurar despliegues consistentes y eficientes.
 
-**Interés especial en IA**: Me fascinan las posibilidades de integrar IA en proyectos para análisis inteligente de código, asistentes contextuales y mejora continua de arquitecturas.
+Me apasiona la integración de **IA** en soluciones backend: diseño e implemento agentes, subagentes y skills para documentación, auditoría y planificación, usando OpenCode.
+
+Mi stack secundario es **PHP/Laravel**, que utilizo para proyectos pequeños y soluciones rápidas.
 
 ---
 
 ## 👋 Hi! I'm Sebastián
 
-Passionate backend developer focused on building scalable and efficient solutions. Advanced Application Programming student with solid experience in **Java/Spring Boot** and extensive knowledge of backend system architecture. I specialize in REST API development, database integration, and process automation.
+Fullstack developer specialized in backend, DevOps, and infrastructure. Graduated as a Technical Analyst in Application Development and Programming, currently studying Systems Analysis. My main stack is **Java/Spring Boot** and **PostgreSQL** (with Supabase for hosting and authentication), with strong experience in database integration, process automation, and robust REST API development.
 
-Curious, self-taught, and perfectionist: if something interests me, I research it thoroughly. I enjoy solving complex problems with teams, applying best practices, and exploring new technologies. My long-term goal is to establish myself as a **Backend/DevOps Engineer**, while also expanding my fullstack capabilities.
+On the frontend, I mainly use **React** (Vite) and build multiplatform apps with **React Native** (Expo) and **Tauri**. Docker is a core part of all my projects for consistent and efficient deployments.
 
-**Special interest in AI**: I'm fascinated by integrating AI into projects for intelligent code analysis, contextual assistants, and continuous architecture improvement.
+I'm passionate about integrating **AI** into backend solutions: I design and implement agents, subagents, and skills for documentation, auditing, and planning, using OpenCode.
+
+My secondary stack is **PHP/Laravel**, used for small projects and quick solutions.
+
+Curious, self-taught, and perfectionist, always seeking best practices and new technologies. My goal is to keep deepening my expertise in backend, DevOps, and architecture, and gain experience in advanced infrastructure.
+
+---
 
 ### 🎯 Proyectos Destacados / Featured Projects
 
-#### 🎫 Sistema de Gestión de Tickets
+#### 🎫 API Backend de Gestión de Tickets
 
-**Backend API REST** para gestión integral de tickets con autenticación y control de acceso.
+**API REST** para gestión integral de tickets de soporte con 4 roles (superadmin, admin, técnico, trabajador). Desarrollada en Java, Spring Boot y MySQL. Fue mi primer acercamiento a Spring Boot y arquitectura en capas, y el primer proyecto que desplegué. Actualmente sigue evolucionando como sistema de soporte propio para mis desarrollos freelance.
 
-- **Stack**: Java 24 · Spring Boot · MySQL · JWT Authentication
-- **Características**: CRUD completo, autenticación JWT, validaciones robustas, arquitectura en capas
+#### 🗓️ Sistema de Gestión de Turnos
 
-#### 📚 Student Planner (Full-Stack)
-
-**Aplicación educativa completa** para planificación y organización de tareas académicas.
-
-- **Backend**: Java · Spring Boot · MySQL
-- **Frontend**: React · Next.js · Responsive Design
-- **Características**: Autenticación, gestión de tareas, interfaz intuitiva, sincronización en tiempo real
+Sistema de gestión de turnos con 3 roles (superadmin, admin, user), backend en Java con Spring Boot, persistencia y autenticación con Supabase (PostgreSQL), frontend web en React Vite. Primer acercamiento a arquitectura monolítica modular basada en vertical slices (entrando en hexagonal). Aquí comencé a usar Docker de forma seria, implementé JWT auth (tokens generados por Supabase), tests con Mockito, integración y rate limiting.
 
 ---
 
-### 🚀 Especialización Técnica / Technical Focus
+### 🎯 Featured Projects
 
-**Backend (Especialización):**
+#### 🎫 Support Ticket Management API Backend
 
-- ✨ **Java & Spring Boot** - Mi stack principal. Desarrollo de APIs REST, gestión de transacciones, inyección de dependencias
-- 🔄 **Node.js** - Explorando para ampliar mi stack backend y aprovechar su ecosistema
-- 🐘 **PHP & Laravel** - Experiencia profesional (pasantía como Backend Developer)
-- 🔐 **Autenticación & Seguridad** - JWT, validaciones, buenas prácticas de seguridad
+**REST API** for comprehensive support ticket management with 4 roles (superadmin, admin, technician, worker). Built with Java, Spring Boot, and MySQL. My first experience with Spring Boot and layered architecture, and my first deployed project. It continues to evolve as a support system for my freelance developments.
 
-**Bases de Datos:**
+#### 🗓️ Appointment Management System
 
-- 🗄️ **MySQL** - Mi principal tecnología de bases de datos relacionales
-- 🐘 **PostgreSQL** - Conocimientos sólidos y en desarrollo
+Appointment management system with 3 roles (superadmin, admin, user), backend in Java with Spring Boot, persistence and authentication via Supabase (PostgreSQL), web frontend in React Vite. First approach to modular monolithic architecture with vertical slices (moving towards hexagonal). Here I started using Docker seriously, implemented JWT auth (tokens generated by Supabase), tests with Mockito, integration tests, and rate limiting.
 
-**Frontend (Ampliando):**
+---
 
-- ⚛️ **React & Next.js** - Desarrollo de interfaces modernas y SSR
-- 🅰️ **Angular** - En aprendizaje
-- 🎨 **HTML5, CSS3, JavaScript** - Base sólida
+### 🚀 Especialización Técnica
+
+**Backend:**
+
+- ✨ **Java & Spring Boot** – APIs REST, gestión de transacciones, arquitectura en capas y vertical slices, primeros pasos en arquitectura hexagonal
+- 🐘 **PostgreSQL** (Supabase) y **MySQL** – Integración, modelado, administración y autenticación avanzada
+- 🔐 **Autenticación & Seguridad** – JWT (Spring Security y Supabase Auth), control de acceso por roles (superadmin, admin, técnico, user, trabajador), validaciones robustas, rate limiting
+- 🧪 **Testing** – Mockito para tests unitarios, integración y pruebas end-to-end
+- 🐘 **PHP & Laravel** – Stack secundario para proyectos pequeños
+
+**Frontend:**
+
+- ⚛️ **React** (Vite) – UI moderna, SSR, consumo de APIs
+- 📱 **React Native** (Expo) y **Tauri** – Apps multiplataforma
 
 **DevOps & Infraestructura:**
 
-- 🐧 **Linux** - Administración de servidores, scripts personalizados, CI/CD casero
-- 🐳 **Docker** - Contenedorización de aplicaciones (en desarrollo)
-- ☸️ **Kubernetes** - Objetivo próximo
-- 🔧 **Git** - Control de versiones y workflow
+- 🐳 **Docker** – Contenerización y despliegue en todos los proyectos
+- 🐧 **Linux** – Administración de servidores, scripts personalizados, CI/CD
+- 🔧 **Git** – Control de versiones y workflow
 
-**Tecnologías Adicionales:**
+**Prácticas de Arquitectura:**
 
-- 🛠️ **Electron & Capacitor** - Experiencia en aplicaciones de escritorio y móviles
-- 🤖 **IA & ML** - Interés activo en integración de IA en proyectos backend
+- 🏗️ Modularización por features (vertical slices), monolitos modulares, primeros pasos en arquitectura hexagonal
+
+**Inteligencia Artificial:**
+
+- 🤖 **Agentes, subagentes y skills** – Diseño e implementación para documentación, auditoría y planificación (OpenCode)
 
 ---
 
-- **Backend (Specialization):**
-- ✨ **Java & Spring Boot** - My main stack. REST API development, transaction management, dependency injection
-- 🔄 **Node.js** - Exploring to expand my backend stack
-- 🐘 **PHP & Laravel** - Professional experience (backend developer internship)
-- 🔐 **Authentication & Security** - JWT, validations, security best practices
+### 🚀 Technical Focus
 
-**Databases:**
+**Backend:**
 
-- 🗄️ **MySQL** - My primary relational database technology
-- 🐘 **PostgreSQL** - Solid knowledge and growing
+- ✨ **Java & Spring Boot** – REST APIs, transaction management, layered architecture, vertical slices, first steps in hexagonal architecture
+- 🐘 **PostgreSQL** (Supabase) & **MySQL** – Integration, modeling, administration, advanced authentication
+- 🔐 **Authentication & Security** – JWT (Spring Security & Supabase Auth), role-based access (superadmin, admin, technician, user, worker), robust validations, rate limiting
+- 🧪 **Testing** – Mockito for unit, integration, and end-to-end tests
+- 🐘 **PHP & Laravel** – Secondary stack for small projects
 
-**Frontend (Expanding):**
+**Frontend:**
 
-- ⚛️ **React & Next.js** - Modern UI and SSR development
-- 🅰️ **Angular** - Learning
-- 🎨 **HTML5, CSS3, JavaScript** - Strong foundation
+- ⚛️ **React** (Vite) – Modern UI, SSR, API consumption
+- 📱 **React Native** (Expo) & **Tauri** – Multiplatform apps
+- 🎨 **HTML5, CSS3, JavaScript** – Strong foundation
 
 **DevOps & Infrastructure:**
 
-- 🐧 **Linux** - Server administration, custom scripts, custom CI/CD
-- 🐳 **Docker** - Application containerization (in development)
-- ☸️ **Kubernetes** - Next goal
-- 🔧 **Git** - Version control and workflow
+- 🐳 **Docker** – Containerization and deployment in all projects
+- 🐧 **Linux** – Server administration, custom scripts, CI/CD
+- 🔧 **Git** – Version control and workflow
 
-**Additional Technologies:**
+**Architecture Practices:**
 
-- 🛠️ **Electron & Capacitor** - Desktop and mobile applications
-- 🤖 **AI & ML** - Active interest in integrating AI in backend projects
+- 🏗️ Feature-based modularization (vertical slices), modular monoliths, first steps in hexagonal architecture
+
+**Artificial Intelligence:**
+
+- 🤖 **Agents, subagents & skills** – Design and implementation for documentation, auditing, and planning (OpenCode)
+
+---
 
 ### 🛠️ Stack Tecnológico / Tech Stack
 
 **Backend & Lenguajes:**
 
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" /> <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" /> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" /> <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" /> <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" /> <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" /> <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
 
 **Bases de Datos:**
 
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
 
 **Frontend:**
 
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" /> <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" /> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/Tauri-FFC131?style=for-the-badge&logo=tauri&logoColor=black" /> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 
 **DevOps & Infraestructura:**
 
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" /> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" /> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+
+**Inteligencia Artificial:**
+
+<img src="https://img.shields.io/badge/OpenCode-000000?style=for-the-badge&logo=OpenAI&logoColor=white" />
 
 ---
 
 ### 💼 Experiencia Profesional / Professional Experience
 
-**Backend Developer (Pasantía)**
+**Backend/Fullstack Developer**
+
+- Rol actual: Fullstack developer con foco en backend, DevOps e infraestructura
+- Titulado como Técnico Analista en Desarrollo y Programación de Aplicaciones
+- Actualmente cursando la carrera de Análisis de Sistemas
+
+**Backend Developer (Internship)**
 
 - Empresa: Coned
 - Período: Mayo a Septiembre de 2025
 - **Stack**: PHP 7 · Laravel · MySQL
-- **Responsabilidades**: Migración de consultas SQL nativas a Eloquent ORM de Laravel 7, refactorización de código legacy, implementación de 2 funcionalidades completas del sistema, optimización de queries y mejora de arquitectura backend
+- **Responsabilidades**: Migración de consultas SQL nativas a Eloquent ORM de Laravel 7, refactorización de código legacy, implementación de funcionalidades, optimización de queries y mejora de arquitectura backend
 
 ---
 
@@ -150,22 +173,20 @@ Curious, self-taught, and perfectionist: if something interests me, I research i
 
 ### 📫 Conecta Conmigo / Get in Touch
 
-- 💼 **LinkedIn**: [Tu perfil LinkedIn](www.linkedin.com/in/sebastian-martin-conde-768360358)
-- 🌐 **Portfolio Web**: [Tu sitio web](https://conde-sebastian.vercel.app)
-- 📧 **Email**: [tu.email@ejemplo.com](mailto:sebastianconde60@gmail.com)
-- 💻 **GitHub**: [@tuusuario](https://github.com/Akc9912)
+- 💼 **LinkedIn**: [perfil](https://www.linkedin.com/in/sebastian-martin-conde-768360358/)
+- 🌐 **Web**: [Portfolio](https://conde-sebastian.vercel.app/)
+- 💻 **GitHub**: [@Akc9912](https://github.com/Akc9912)
 
 ---
 
 ### 🚀 Roadmap 2026 / Next Steps
 
 - ✅ Consolidar expertise avanzado en Java/Spring Boot
-- 🔄 Profundizar en Node.js para ampliar stack backend
-- 🐳 Dominar Docker y containerización a nivel profesional
-- ☸️ Aprender Kubernetes y orquestación de contenedores
-- 🤖 Integrar IA en proyectos para análisis inteligente y asistencia contextual
-- 📈 Contribuir activamente a proyectos open source
-- 🎓 Especialización en DevOps e infraestructura
-- 🏢 Obtener rol de Backend Developer o Backend/DevOps Engineer
+- 🐳 Dominar Docker y CI/CD profesional
+- 🐘 Profundizar en PostgreSQL y Supabase
+- 🤖 Integrar IA en proyectos backend (agentes, skills, automatización)
+- 📱 Perfeccionar desarrollo multiplataforma con React Native y Tauri
+- 🎓 Especialización en DevOps, infraestructura y cloud
+- 🏢 Obtener rol de Backend/DevOps Engineer
 
 ---
