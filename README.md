@@ -24,7 +24,7 @@ Curious, self-taught, and perfectionist, always seeking best practices and new t
 
 ---
 
-### 🎯 Proyectos Destacados / Featured Projects
+### 🎯 Proyectos Destacados
 
 #### 🎫 API Backend de Gestión de Tickets
 
